@@ -1,0 +1,144 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.taocp.autoairplanemode.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+  
+            <TextView
+                android:id="@+id/textview_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prompt_start_time" />
+
+            <Button
+                android:id="@+id/button_change_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/change_start_time" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textview_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prompt_end_time" />
+
+            <Button
+                android:id="@+id/button_change_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/change_end_time" />
+
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ToggleButton
+                android:id="@+id/button_moday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/monday"
+                android:textOn="@string/monday" />
+
+            <ToggleButton
+                android:id="@+id/button_tuesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/tuesday"
+                android:textOn="@string/tuesday"
+                 />
+
+            <ToggleButton
+                android:id="@+id/button_wednesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/wednesday"
+                android:textOn="@string/wednesday"
+                />   
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <ToggleButton
+                android:id="@+id/button_thurday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/thursday"
+                android:textOn="@string/thursday" />
+
+            <ToggleButton
+                android:id="@+id/button_friday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/friday" 
+                android:textOn="@string/friday"
+                />
+            
+            <ToggleButton
+                android:id="@+id/button_saturday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/saturday" 
+                android:textOn="@string/saturday" 
+                />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <ToggleButton
+                android:id="@+id/button_sunday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/sunday" 
+                android:textOn="@string/sunday" 
+                />
+            
+            <ToggleButton
+                android:id="@+id/button_workday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/workday" 
+                android:textOn="@string/workday"
+                />
+
+            <ToggleButton
+                android:id="@+id/button_weekend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/weekend" 
+                android:textOn="@string/weekend" 
+                />
+
+            
+            
+        </LinearLayout>
+
+        <ToggleButton
+            android:id="@+id/toggleButton_isenable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/toggle_disable" 
+            android:textOn="@string/toggle_enable" 
+            />
+    </TableLayout>
+
+</FrameLayout>

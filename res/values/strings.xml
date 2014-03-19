@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoAirplaneMode</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="prompt_start_time">start time</string>
+	<string name="prompt_end_time">end   time</string>
+	<string name="change_start_time">change</string>
+	<string name="change_end_time">change</string>
+	
+	<string name="monday">mo</string>
+	<string name="tuesday">tu</string>
+	<string name="wednesday">we</string>
+	
+	<string name="thursday">th</string>
+	<string name="friday">fr</string>
+	<string name="saturday">sa</string>
+	
+	<string name="sunday">su</string>
+	<string name="workday">workday</string>
+	<string name="weekend">weekend</string>
+	
+	<string name="toggle_enable">enable</string>
+	<string name="toggle_disable">disable</string>
+	
+	<string name="test_isopen">huhu~</string>
+</resources>
